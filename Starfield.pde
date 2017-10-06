@@ -35,8 +35,8 @@ class NormalParticle implements Particle
   Speed = 2;
   }
  public void move(){
-  x = x + (java.lang.Math.cos(Angle) * Speed);
-  y = y + (java.lang.Math.sin(Angle) * Speed);
+  x = x + (Math.cos(Angle) * Speed);
+  y = y + (Math.sin(Angle) * Speed);
   if((x >500) || (x < 0)){
   x = 250;
   }
